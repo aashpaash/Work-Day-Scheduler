@@ -23,7 +23,12 @@ textarea {
 .row {
   border-top: 1px solid white;
 }
-
+#taskList {
+  display: none;
+}
+#todo{
+  font-size: 20px;
+}
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -46,7 +51,7 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid rgba(0, 0, 0, 0.347);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
@@ -60,3 +65,6 @@ textarea {
 #storedevent {
   color:darkslategrey
 }
+#storedevent span {
+  color:#09f39a
+ }
