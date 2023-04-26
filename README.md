@@ -45,7 +45,7 @@ THEN the saved events persist
 
 ## Installation
 GitHub link: https://github.com/aashpaash/Work-Day-Scheduler<br>
-Deployed link: https://aashpaash.github.io/JavaScript-Fresher-Quiz/
+Deployed link: https://aashpaash.github.io/Work-Day-Scheduler
 
 
 ## License
