@@ -2,6 +2,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
+.jumotron {
+  text-align: center;
+  background-color: gold;
+  opacity: 70px;
+  border-bottom: 40px;
+  border-radius: 0%;
+
+}
 
 textarea {
   background: transparent;
@@ -16,8 +24,9 @@ textarea {
   white-space: pre-wrap;
 }
 
-.time-block {
+.time-block, #taskList {
   border-radius: 15px;
+  text-orientation: center;
 }
 
 .row {
