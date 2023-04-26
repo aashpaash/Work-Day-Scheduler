@@ -1,6 +1,19 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
+// DOM elements to jQuery that isn't ran until the browser has finished rendering all the elements
+// in the html and saved in local storage
+$document.ready(function() {
+  $('storedevent').text("Task Added");
+  $('storedevent').on('click',function(){
+    var currentTime = dayjs().format("dddd MMMM D, YYYY hh:mm:ss A");
+    $("#todaysDate").text(currentTime);
+    //Save to local storage
+    //Confirm stored event
+    $(document).ready(function(){
+      localStorage.setItem(currentTime, todaysDate, $("body").html();
+      alert("Task Added");
+    });
+  })
+
+
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
