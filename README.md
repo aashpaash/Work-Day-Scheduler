@@ -1,4 +1,4 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
 ## Table of Contents
 - [Description](#Description)
@@ -55,4 +55,5 @@ Deployed link: https://aashpaash.github.io/JavaScript-Fresher-Quiz/
 ![License Badge](https://img.shields.io/badge/ThirdPartyAPI-API-red)
 ![License Badge](https://img.shields.io/badge/JavaScript-JS-purple)
 ![License Badge](https://img.shields.io/badge/jQuery-jQ-blue)
+![License Badge](https://img.shields.io/badge/Dayjs-js-pink)
 
